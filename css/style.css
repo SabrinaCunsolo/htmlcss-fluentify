@@ -189,8 +189,16 @@ nav {
 }
 /* fine header */
 /* inizio main */
+
+/* real life */
+.real-life {
+    width: 100%;
+    height: auto;
+    background-color: grey;
+}
+
 .real-life-img {
-    background-color: red;
+    /* background-color: red; */
     width: 50%;
     float: left;
     padding-top: 70px;
@@ -199,9 +207,9 @@ nav {
 
 .real-life-img > img { width: 100%; height: auto; }
 
-.real-life {
+.real-box {
     padding-top: 24px;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 50%;
     float: left;
 }
@@ -242,5 +250,58 @@ nav {
     color: #737373;
     font-size: 20px;
 }
+
+/* nessuna */
+
+.nessuna {
+    width: 100%;
+    height: auto;
+    /* background-color: coral; */
+}
+
+.nessuna-titolo {
+    width: 100%;
+    height: 30%;
+    color: #737373;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 30px;
+    /* background-color: purple; */
+}
+
+.nessuna-griglia {
+    width: 100%;
+    height: 70%;
+    /* background-color: pink; */
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.nessuna-dispositivi {
+    width: 33%;
+    float: left;
+    /* display: inline-block; */
+    /* background-color: brown; */
+}
+
+.nessuna-profilo {
+    width: 33%;
+    float: left;
+    /* background-color: green; */
+}
+
+.nessuna-browser {
+    width: 33%;
+    float: left;
+    /* background-color: blue; */
+}
+
+.nessuna-dispositivi > img { width: 35%; height: auto; }
+
+.nessuna-profilo > img { width: 35%; height: auto; }
+
+.nessuna-browser > img { width: 35%; height: auto; }
 
 /* fine header */
