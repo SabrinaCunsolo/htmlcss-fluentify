@@ -194,7 +194,8 @@ nav {
 .real-life {
     width: 100%;
     height: auto;
-    background-color: grey;
+    /* background-color: grey; */
+    padding-top: 80px;
 }
 
 .real-life-img {
@@ -256,6 +257,7 @@ nav {
 .nessuna {
     width: 100%;
     height: auto;
+    padding-top: 80px;
     /* background-color: coral; */
 }
 
