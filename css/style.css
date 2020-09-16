@@ -193,14 +193,54 @@ nav {
     background-color: red;
     width: 50%;
     float: left;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .real-life-img > img { width: 100%; height: auto; }
 
 .real-life {
+    padding-top: 24px;
     background-color: yellow;
     width: 50%;
     float: left;
+}
+
+.real-life-boxes {
+    padding: 20px;
+    height: 25%;
+}
+
+
+.intestazione-real-life {
+    color: #737373;
+    font-size: 40px;
+    line-height: 45px;
+    display: inline-block;
+}
+
+.real-life-color {
+    color: #64DE82;
+}
+
+.title-real-life {
+    /* padding-bottom: 10px; */
+    /* padding-top: 10px; */
+    font-size: 30px;
+    color: #011A51;
+}
+
+.text-real-life {
+    padding-bottom: 40px;
+    color: #737373;
+    font-size: 20px;
+    border-bottom: 1px solid #DFE2E7;
+}
+
+.text-real-life2 {
+    padding-bottom: 40px;
+    color: #737373;
+    font-size: 20px;
 }
 
 /* fine header */
