@@ -324,19 +324,43 @@ nav {
 .app-contenuto {
     width: 50%;
     height: auto;
-    background-color: pink;
+    /* background-color: pink; */
     float: left;
+    padding-top: 50px;
+    padding-right: 80px;
+}
+
+.app-titolo {
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+
+.app-text {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.app-link {
+    color: #64DE82;
+    font-weight: 700;
+    text-decoration: none;
+}
+.app-link:hover {
+    border-color: rgba(100,222,130,0.7);
+    color: #47A175;
 }
 
 .app-img {
     width: 50%;
     height: auto;
-    background-color: purple;
+    /* background-color: purple; */
     float: left;
 }
 
 .app-png  {
     display: block;
-    padding-left: 40px;
+    padding-left: 150px;
 }
 /* fine header */
